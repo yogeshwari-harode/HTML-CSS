@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colspan Table </title>
+	<style>
+		td{
+			padding: 4px;
+			height: 40px;
+			width:20%;
+			background-color:tan;
+		}
+		th{
+			padding: 4px;
+			height: 40px;
+			width:20%;
+            background-color: blue;
+            color:white;
+		}
+		.a{
+			color:black;
+			background-color: tan;
+		}
+
+	</style>
+</head>
+<body>
+	<center><h1>Colspan</h1></center>
+	<table border="1px" align="center" cellspacing="0px">
+     
+      <caption>Workers Record</caption>
+
+		<tr>
+			<th>Workers Name</th>
+			<th colspan="2">Mobile no.</th>
+		</tr>
+		<tr>
+			<td class="a"><b>Pravin</b></td>
+            <td align="middle">9887637565</td>
+            <td align="middle">9887637565</td>
+		</tr>
+
+		<tr>
+			<td class="a"><b>Swati</b></td>
+			<td align="middle">9786563545</td>
+			<td align="middle">9786563545</td>
+		</tr>
+
+		<tr>
+			<td class="a"><b>Dheeraj</b></td>
+			<td align="middle">9177665676</td>
+			<td align="middle">9177665676</td>
+		</tr>
+
+	</table>
+</body>
+</html>

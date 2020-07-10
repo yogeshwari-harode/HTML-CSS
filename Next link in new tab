@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>a html</title>
+</head>
+<body>
+	<h2><a name="top"></a></h2>
+<h1>Next Page in New Link</h1>
+
+
+<a href="list.html" target="_blank">Next Page</a>
+
+<!-- we can also use this at the place of  _blank="_self,_parent,_top"-->
+
+<br><br>
+<hr>
+
+<h3>Automatic Scroll</h3>
+<a href="#linkone"> What is electric dipole ?</a><br>
+
+<a href="#linksecond">Biography of APJ abdul kalam</a>
+
+<p>
+It is the age of science .There are many wonders of science.science plays an important part in our daily life .it has made our life easier and sistametic way of knowledge.in the dim down of creation when man opened his eyes .he sawthe blezing sun,the shining moon,the twinkling stars.he cried in amazement "WHAT ARE THIS".the question has been fully answered today by science.</p>
+
+<p>
+It is the age of science .There are many wonders of science.science plays an important part in our daily life .it has made our life easier and sistametic way of knowledge.in the dim down of creation when man opened his eyes .he sawthe blezing sun,the shining moon,the twinkling stars.he cried in amazement "WHAT ARE THIS".the question has been fully answered today by science.</p>
+
+
+<p>
+It is the age of science .There are many wonders of science.science plays an important part in our daily life .it has made our life easier and sistametic way of knowledge.in the dim down of creation when man opened his eyes .he sawthe blezing sun,the shining moon,the twinkling stars.he cried in amazement "WHAT ARE THIS".the question has been fully answered today by science.</p>
+
+<h2><a name="linkone">What is electric dipole ?</a></h2>
+<p>
+	
+A system of two equal and opposite charges which are placed very close to each other is called <b>Electric Dipole.</b><br>
+<br>
+Let AB be an electric dipole consisting of +q and -q charges and distance between them is 2l .<br>
+<br>
+Distance between them is called <b>length of dipole.</b><br><br>
+
+<h2><a name="linksecond">Biography of APJ abdul kalam</h2>
+
+<ul style="list-style-type:circle"><li><h5><b>FULL NAME-Abul pakir jainulabdeen abdul kalam</b></h5>
+<li><h5>FATHER'S NAME-Mrs.jainulabdeen</h5></li>
+
+<li><h5>MOTHER'S NAME-Ms. Ashiamma</h5></li>
+
+<li><h5>RELIGION-Islam</h5></li>
+
+<hr>
+
+Avul  Pakir Jainulabdeen Abdul Kalam<!--A.P.J. Abdul Kalam--> was born on 15 October 1931 to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. <br>His father Jainulabdeen was a boat owner and imam of a local mosque his mother Ashiamma was a housewife. His father owned a ferry that took Hindu pilgrims back and forth between Rameswaram and the now uninhabited Dhanushkodi. Kalam was the youngest of four brothers and one sister in his family.His ancestors had been wealthy traders and landowners, with numerous properties and large tracts of land. Their business had involved trading groceries between the mainland and the island and to and from Sri Lanka, as well as ferrying pilgrims between the mainland and Pamban. As a result, the family acquired the title of "Mara Kalam Iyakkivar" (wooden boat steerers), which over the years became shortened to "Marakier." With the opening of the Pamban Bridge to the mainland in 1914, however, the businesses failed and the family fortune and properties were lost over time, apart from the ancestral home.By his early childhood, Kalam's family had become poor; at an early age, he sold newspapers to supplement his family's income
+<h2><a href="#top"> Go to top</h2>
+
+</body>
+</html>

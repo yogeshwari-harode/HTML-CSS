@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table layout</title>
+	<style>
+	
+	</style>
+</head>
+<body>
+	<table width="80%"align="center" border="1"  cellspacing="0" cellpadding="10px">
+	<tr>
+		<td bgcolor="lightgreen" colspan="2">
+		    <h1>Site Name</h1>
+		</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor="pink" colspan="2">
+			<a href="">Home</a> | <a href="">About Us</a>|<a href="">Gallery</a>|<a href="">FAQ</a>|<a href="">Contact Us</a>
+		</td>
+	</tr>
+
+		<tr>
+			<td width="80%">
+				<h3>Welcome to our Website</h3>
+<p> One of the major driving forces behind this is science. It makes you think about the wonder of science and how it has proven to be such a boon in our lives. Most importantly, science has helped develop a great civilization. All the advancements that man has been able to make are with the help of science only. However, it won’t be wrong to say that science is a two-edged sword. It comes with its own set of advantages and disadvantages.To say that science has a lot of benefits would be an understatement.  When we talk about innovations in science and engineering, electricity is the first thing that comes to mind. It has helped power the world through its development.
+</p>
+<p>
+That is to say, all the credit goes to science, as it weren’t for science, life in the 21st century would be impossible.
+It has helped cure deadly diseases and also perform surgeries which were hard to perform before. Therefore, science has changed the world in unimaginable ways.
+</p>
+		</td>
+
+<td valign="top">
+	<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About Us</a></li>
+	<li><a href="">Gallery</a></li>
+	<li><a href="">FAQ</a></li>
+	<li><a href="">Contact Us</a></li>
+</td>
+</tr>
+<tr>
+	<td bgcolor="pink" colspan="2">Copyright sitename@2020</td>
+</tr>
+	</table>
+
+</body>
+</html>

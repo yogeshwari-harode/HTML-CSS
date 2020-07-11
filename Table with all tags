@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table with all tag</title>
+</head>
+<body>
+
+<table width="20%" align="center" border="2" cellpadding="6" cellspacing="0">
+
+<thead bgcolor="purple">   <!-- we can also write thead in the last because thead know that it is head thats why its doesn't change its position-->
+	     <tr>
+	     <th>Subject</th>
+	     <th>Marks</th>
+	     </tr>
+</thead>
+
+<tbody bgcolor="tan">
+	  <tr>		
+	  <td>English</td>
+	  <td>85</td>
+	  </tr>
+
+	 	  <tr>
+		  <td>Hindi</td>
+		  <td>96</td>
+		  </tr>
+
+	<tr>
+    <td>Maths</td>
+	<td>99</td>
+	</tr>
+	      <tr>
+		  <td>Phisics</td>
+		  <td>90</td>
+	      </tr>
+
+	<tr>
+	<td>Chemistry</td>
+	<td>85</td>
+	</tr>
+</tbody>
+
+<tfoot  bgcolor="forestgreen">
+	    	  <tr>
+	   		  <td>Total Marks</td>
+			  <td>455</td>
+			  </tr>
+</tfoot>
+
+</table>
+
+</body>
+</html>

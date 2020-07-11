@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Rowspan</title>
+	<style>
+		th{
+			background-color: blue;
+			color:white;
+			width:70%;
+			padding: 20px;
+		}
+		td{
+			padding:15px;
+			background-color:gray;
+		}
+		
+	</style>
+</head>
+<body>
+      <center><h1>Rowspan</h1></center>
+	<table border="1px" align="center" cellspacing="0px">
+     
+      <caption>Students Record</caption>
+
+		<tr>
+		     <th>Students Name</th>	
+		     <th>Mobile no.</th>
+		</tr>
+       
+        <tr>
+        	<td rowspan="2">Shiwani</td>
+        	<td>1 xxxxxxxxxx</td>
+        </tr>
+
+        <tr>
+        	<td>2 xxxxxxxxxx</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Kajal</td>
+            <td>1 xxxxxxxxxx</td>
+        </tr>
+         
+
+         <tr>
+        	<td>2 xxxxxxxxxx</td>
+        </tr>
+
+         <tr>
+        	<td rowspan="2">Damini</td>
+        	<td>1 xxxxxxxxxx</td>
+        </tr>
+
+         <tr>
+        	<td>2 xxxxxxxxxx</td>
+        </tr>
+
+	</table>
+</body>
+</html>

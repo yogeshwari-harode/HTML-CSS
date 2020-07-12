@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		 stars
+	</title>
+<style>
+	body{
+		 background-color:black;
+		 background-size:cover;
+	   background-attachment: fixed;
+		 background-repeat: no-repeat;
+}
+.a{
+	width:11px;
+	height:11px;
+	border-radius:60%;
+  top: 100px;
+  left: 400px;
+  opacity: 0.2px;
+  position: fixed;
+
+  animation-name: starsa;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-delay: 0s;
+  animation-direction:forward;
+  animation-timing-function:linear;
+}
+@keyframes starsa{
+	0%{top: 100px;
+    left: 400px;}
+    25%{background-color:white;}
+    50%{background-color:gray;}
+} 
+.b{
+	width:5px;
+	height:5px;
+	border-radius:60%;
+  top: 200px;
+  left: 500px;
+  opacity: 0.2px;
+  position: fixed;
+
+  animation-name:starsb;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-delay: 0s;
+  animation-direction:forward;
+  animation-timing-function:linear;
+}
+@keyframes starsb{
+	0%{ top: 200px;
+    left: 500px;}
+    25%{background-color:white; }
+    50%{background-color:pink;}
+} 
+.c{
+	width:8px;
+	height:8px;
+	border-radius:60%;
+  top:200px;
+  left:200px;
+  opacity: 0.2px;
+  position: fixed;
+
+  animation-name:starsc;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-delay: 0s;
+  animation-direction:forward;
+  animation-timing-function:linear;
+}
+@keyframes starsc{
+	0%{top: 200px;
+    left: 200px;}
+    25%{background-color:lightblue; }
+    50%{background-color:white;}
+	
+} 
+.d{
+    width:10px;
+    height:10px;
+    border-radius:60%;
+    top:400px;
+    left:700px;
+    opacity: 0.2px;
+    position: fixed;
+
+    animation-name:starsd;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    animation-direction:forward;
+    animation-timing-function:linear;
+}
+@keyframes starsd{
+    0%{top: 400px;
+    left: 700px;}
+    25%{background-color:lightblue; }
+    50%{background-color:white;}    
+} 
+.e{
+    width:8px;
+    height:8px;
+    border-radius:60%;
+    top:80px;
+    left:800px;
+    opacity: 0.2px;
+    position: fixed;
+
+    animation-name:starse;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    animation-direction:forward;
+    animation-timing-function:linear;
+}
+@keyframes starse{
+    0%{top: 80px;
+    left: 800px;}
+    25%{background-color:lightblue; }
+    50%{background-color:white;}
+    
+} 
+.f{
+    width:9px;
+    height:9px;
+    border-radius:60%;
+    top: 160px;
+    left: 700px;
+    opacity: 0.2px;
+    position: fixed;
+
+    animation-name: starsf;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    animation-direction:forward;
+    animation-timing-function:linear;
+}
+@keyframes starsf{
+    0%{top: 160px;
+    left: 700px;}
+    25%{background-color:white; }
+    50%{background-color:gray;}
+    
+} 
+</style>
+</head>
+<body>
+	<div class="a">
+	<div class="b">
+	<div class="c">
+    <div class="d">
+    <div class="e">
+    <div class="f">
+</body>
+</html>

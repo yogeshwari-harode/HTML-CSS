@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>contact us</title>
+	<style>
+		body
+    {
+			background-color:tan;
+	  }
+		.a
+    {
+			font-family: cursive; 
+	  }
+	input
+  {
+		font-family: cursive;
+		border-radius:40px;
+		padding: 10px;
+		margin:10px;
+	}
+	label
+  {
+		color:white;
+	}
+	form
+  {
+		background-image:linear-gradient(crimson,black);
+		width:400px;
+		height:470px;
+		border:solid gray;
+		border-radius:20px;
+ }
+	button
+  {
+		width:60px;
+		padding: 6px;
+		border-radius:15px;
+  }
+button:hover
+{
+	background-color:black;
+	color: white;
+}
+	</style>
+</head>
+<body>
+<b>
+<center>
+	<form class="a">
+		<h1>Contact us</h1>
+<label>User name</label><br>
+<input type="text" placeholder="Your Name"required><br>
+<label>Mobile no.</label><br>
+<input type="tel" placeholder="mobile no."required><br>
+<label>E-mail</label><br>
+<input type="Email"placeholder="e-mail"required><br>
+<label>Address</label><br>
+<input type="Address"placeholder="address"required><br>
+<button type="submit" value="submit">submit</button>
+</form>
+</center>
+</b>
+</body>
+</html>

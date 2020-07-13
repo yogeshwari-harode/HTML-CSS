@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>list html</title>
+</head>
+<body>
+	
+
+	<h1>List</h1>
+	<h1>Unordered List</h1>
+
+<ul type="solid-circle">
+	<li>orange</li>
+	<li>apple</li>
+	<li>mango</li>
+	<li>banana</li>
+</ul>
+
+    <h1>Ordered List</h1>
+<ol type="A,a,I,i" start="1">
+	<li>orange</li>
+	<li>apple</li>
+	<li>mango</li>
+	<li>banana</li>
+</ol>
+
+
+  <h1>Description list</h1>
+  <br>
+  <dt>WONDER OF SCIENCE-</dt> 
+  <dd>It is the age of science.There are many wonders of science.
+  science plays an important part in our daily life . It has made our life easy and systematic way of knowledge.In the dim down of creation when man opened his eyes ,he saw the blezing sun, the shining moon , the twinkling stars.He cried in amazement-" What are this ?".The question has bee fuly answered today by science.</dd>
+  <br>
+  <dt>WONDER OF SCIENCE-</dt>
+  <dd>It is the age of science.There are many wonders of science.
+  science plays an important part in our daily life . It has made our life easy and systematic way of knowledge.In the dim down of creation when man opened his eyes ,he saw the blezing sun, the shining moon , the twinkling stars.He cried in amazement-" What are this ?".The question has bee fuly answered today by science.</dd>
+<br>
+  <dt>WONDER OF SCIENCE-</dt>
+
+  <dd>It is the age of science.There are many wonders of science.
+  science plays an important part in our daily life . It has made our life easy and systematic way of knowledge.In the dim down of creation when man opened his eyes ,he saw the blezing sun, the shining moon , the twinkling stars.He cried in amazement-" What are this ?".The question has bee fuly answered today by science.</dd>
+</body>
+</html>

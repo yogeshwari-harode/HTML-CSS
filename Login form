@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+	<style>
+		body{
+			background-image: linear-gradient(orange,white,green);
+			background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+		}
+		.a{
+			font-family: cursive;
+
+		}
+	input{
+		font-family: cursive;
+		border-radius:40px;
+		padding: 10px;
+		margin:10px;
+	}
+	label{
+		color:black;
+		font-family: cursive;
+	}
+	form{
+		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0kEthacLOYpxsIeeFHx_X45C6qMOEQq6aaEbuBtCR-fF6nBma&usqp=CAU");
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:450px;
+		height:470px;
+		border-radius:20px;
+		opacity: 0.7;
+	}
+	button{
+		width:60px;
+		padding: 6px;
+		margin:2px;
+		border-radius:15px;
+	}
+form:hover{
+	opacity: 0.9;
+}
+button:hover{
+	background-color:black;
+	color: white;
+	opacity:0.9;
+}
+
+	</style>
+</head>
+<body>
+
+<b>
+	
+<center>
+	<form class="a">
+		<h1>Login</h1>
+<label>User name</label><br>
+<input type="text" placeholder="Your Name"required><br>
+<label>Password</label><br>
+<input type="password" placeholder="password"required><br>
+<label>E-mail</label><br>
+<input type="Email"placeholder="e-mail"required><br>
+<label>Address</label><br>
+<input type="Address"placeholder="address"required><br>
+<a href="">
+<button type="submit" value="submit">submit</button></a>
+</form>
+</center>
+</b>
+
+
+</body>
+</html>

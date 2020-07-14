@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		surya grahan
+	</title>
+<style>
+	body{
+		 background-image:linear-gradient(gray,yellow);
+		 background-size:cover;
+	     background-attachment: fixed;
+		 background-repeat: no-repeat;
+}
+.b{
+	width:160px ;
+	height:160px ;
+	border-radius: 90px;
+	background-image:radial-gradient(yellow,gold,red);
+	margin:120px;
+	left: 570px;
+	position: fixed;
+
+}
+.a{
+	width:155px;
+	height:155px;
+	border-radius:80px; 
+	background-image:radial-gradient(gray,black);
+	margin:125px auto ;
+	left: 40px;
+
+	position: fixed;
+
+	animation-name:planet;
+	animation-direction: forward;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	animation-timing-function: linear;
+	animation-duration:7s;
+
+}
+@keyframes planet{
+		100%{left: 700px;}
+	  }
+</style>
+</head>
+<body>
+
+<div class="b">
+<pre>
+<i>
+<b>
+       
+
+          Sun
+</b>
+</pre>
+</i>
+</div>
+
+<div class="a">
+<pre>
+<i>
+<b>
+       
+        Shadow
+          of 
+         Moon
+</b>
+</i>
+</pre>
+</div>
+
+</body>
+</html>

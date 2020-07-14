@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		moving square
+	</title>
+	<style>
+		body{
+			background-image: linear-gradient(gray,green);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.a{
+			width:100px;
+			height:100px;
+            margin:0px;
+            left:0px;
+            border-radius:5px;
+            position: fixed ;
+            animation-name: box;
+            animation-direction: forward;
+            animation-duration: 5s;
+            animation-delay: 0s;
+            animation-play-state:unset;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+		}
+	@keyframes box{
+		0%{background-image: linear-gradient(maroon,black);left: 0px; top: 0px;}
+        25%{background-image:linear-gradient(indigo,black); left: 500px; top: 0px;}
+		50%{background-image:linear-gradient(darkgreen,black); top: 400px; left: 500px;}
+		65%{background-image:linear-gradient(blue,black); left:0px; top:400px; }
+		100%{background-image:linear-gradient(maroon,black);  top:0px; left:0px;}
+		
+	}
+
+	</style>
+</head>
+
+<body>
+	<div class="a">
+	</div>
+</body>
+</html>

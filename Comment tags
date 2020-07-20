@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>comment</title>
+<style>
+	body
+
+
+    h1{
+    	color:crimson;
+    }
+</style>
+         <meta name="description" content="Free Web tutorials">
+</head>
+<body>
+	
+    <center>
+       <h1>Hello</h1>
+       <br>
+       
+       <h3> 
+        We can write any comment with the help of  /*.......*/ but only in CSS.
+         <br><p>
+        But , if you want to give comment in body then you can use this
+        <br><br>
+         <img src="https://www.wikihow.com/images/thumb/6/6d/795094-2.jpg/v4-460px-795094-2.jpg.webp">
+       </p>
+
+       
+       </h3>
+    </center>
+
+</body>
+</html>

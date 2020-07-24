@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tag</title>
+</head>
+<body>
+	<h1>Form</h1>
+	<form action="" method="get,post">
+
+       <fieldset>
+       	
+          <legend>Personal Details</legend>
+
+
+		<label>Name</label>
+		<input type="text" value="" placeholder="Enter your Name"><br><br>
+
+		<label>Password</label>
+		<input type="Password" placeholder="Enter your Password"><br><br>
+		
+		<label>Gender</label>
+		<input type="radio" name="Gender" id="Male">
+		<label for="Male" >Male</label>
+		<input type="radio" name="Gender" id="Female">
+		<label for="Female">Female</label><br><br>
+        
+        <!-- we used name because form know that they are the same field so we can choose any one option in the two option -->
+
+		<!--  id and for is used to click on the male and female -->
+
+		<label>Hobbies</label>
+		<input type="checkbox" name="hobby" id="music">
+		<label for="music">music</label>
+		<input type="checkbox" name="Painting" id="Painting">
+		<label for="Painting">Painting</label>
+		<input type="checkbox" name="Singing" id="Singing">
+		<label for="Singing">Singing</label>
+
+		<input type="checkbox" name="Driving" id="Driving">
+		<label for="Driving">Driving</label>
+		<br><br>
+		<label>Message</label>
+		<textarea rows="5" cols="40">Message</textarea>
+<br><br>
+        <label>Country</label>
+
+		<select size="3" multiple>
+			<option selected>India</option>
+			<option>Gujrat</option>
+			<option>Nepal</option>
+			<option>Rajasthan</option>
+			<option>China</option>
+			<option>Maharastra</option>
+			<option>Thyland</option>
+			<option>Jharkhand</option>
+		</select>
+        <br><br>
+
+        <label>Cars</label>
+             <select>
+		<optgroup label="Toyota">
+			<option>Innova</option>
+			<option>Etios</option>
+			<option>Fortuner</option>
+		</optgroup>
+
+         
+		         <optgroup label="Renault ">
+			
+			     <option>Kwid</option>
+			     <option>Duster</option>
+			     <option>Captur</option>
+		         </optgroup>
+       </select>
+<br><br>
+
+    <label>Cars</label>
+    <input list="cars">
+       <datalist id="cars">
+
+       	<option value="Innova">
+       	<option value="Etios">
+        <option value="Fortuner">
+        <option value="Kwid">
+        <option value="Duster">
+        <option value="Captur">
+       </datalist>
+<br><br>
+
+ <label>Uploads Files</label>
+ <input type="file" accept="image/*" name=""/>
+ <!-- we can also give the audio at the place of image and * is used for all types of formate as it is jpg or png or gif -->
+
+ <!-- if we want to give any particular formate than we can write it with . like .jpg , .png , .gif  -->
+
+<br><br>
+
+<input type="submit"/>
+<input type="reset" />
+<input type="image"src="file name/image name" alt="submit button" />
+
+  </fieldset>   
+</form>
+</body>
+</html>

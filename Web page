@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <style>
+
+li {
+  list-style: none;
+}
+
+.a {
+  background-color:#0052C7  ;
+  color: #fff;
+  height: 90px;
+}
+
+.heading {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.list li {
+  float: left;
+  padding: 33px 20px;  /* top      right */
+}                      /* bottom   left */
+
+.main {
+  padding:90px 80px;
+}
+
+.b h1 {
+  font-size: 90px;
+}
+
+.b h2 {
+  font-size: 60px;
+}
+
+
+.contents {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+ padding-left:2px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
+
+  </style>
+
+
+  <body>
+    <div class="a">
+      <div class="heading">Courses</div>
+      <div class="list">
+        <ul>
+          <li>About</li>
+          <li>Lessons</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="b">
+        <h1>HELLO WORLD</h1>
+        <h2>Let's learn to code</h2>
+      </div>
+      
+      <div class="contents">
+       
+        <h3 class="title">Lessons</h3>
+        
+        <div class="contents-item">
+         <a href="https://en.wikipedia.org/wiki/HTML"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_vri8G8pOXoUNNQs-RiE45ZH-UdxM-hznvg&usqp=CAU"></a>
+          <p>HTML</p>
+        </div>
+        
+        <div class="contents-item">
+         <a href="https://en.wikipedia.org/wiki/C%2B%2B"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSr3xHGa7uX5FNxsFGAOEjgYplqr4-osOOzGw&usqp=CAU"></a>
+          <p>C++</p>
+        </div>
+        
+        <div class="contents-item">
+          <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVY7doc84iTB9MIIL3lYUpDNZJU_xlgMGMZw&usqp=CAU"></a>
+          <p>Java</p>
+        </div>
+        
+        <div class="contents-item">
+          <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIjMfBg5_7OQ2nL-Rfz7dI8qfrrL_EDRwEAQ&usqp=CAU"></a>
+          <p>Ruby</p>
+        </div>
+      
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="section-title">Contact us</h3>
+        <p>Email (Required)</p>
+       
+        <p>Message (Required)</p>
+       
+        <p>* Required fields must be filled</p>
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">Courses</div>
+      <div class="footer-list">
+        <ul>
+          <li>About</li>
+          <li>Jobs</li>
+          <li>Contact us<br>
+           Mobile no.-0123456789<br>
+         Address-65 'A' sector bajrang nagar <br>pithampur</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

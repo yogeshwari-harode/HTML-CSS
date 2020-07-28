@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <title>
+	      marque html
+       </title>
+   </head>
+   <body>
+      
+   		<marquee behavior="alternate"><h3>Hello World</h3></marquee><br>
+   		<marquee behavior="slide"><h3>Hii</h3></marquee><br>
+   		<marquee behavior="scroll"><h3>Mayuri</h3></marquee><br>
+   	
+<br>
+
+   	<h2>For fast speed</h2>
+
+
+   	<marquee behavior="scroll" scrollamount="10" direction="right,up,down" loop="1" bgcolor="pink"width="20%"><h3>Hello World</h3></marquee>
+   <br>
+   	<marquee behavior="scroll" scrollamount="10" direction="up"  bgcolor="powderblue"width="20%"height="70%"><h3>Hello World</h3></marquee>
+
+<br><br>
+
+
+   </body>
+</html>

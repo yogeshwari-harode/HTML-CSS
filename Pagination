@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pagination</title>
+	<style>
+	  body{
+			background-color:white;
+		}
+	  ul{
+			border:1.8px solid black;
+			background-color:green;
+			border-radius: 5px;
+			padding:16px;
+		}
+	  li{
+			margin: 0px;
+			padding:3px;
+			list-style-type: none;
+			display: inline-block;
+			width: 13%;
+			font-size:25px;
+
+		}
+		li:hover,li:focus{
+      	  transition: background-color 0.9s;
+     	  background-color: #1a1a1a;
+      	  border:0.5px solid black;
+     	  border-radius: 8px;
+     	  padding:9px;
+    }
+	   
+    li:active{
+      background-color:indigo;
+      border:1px solid black;
+      padding:6px;
+    }
+		a{
+			text-decoration: none;
+            color:white;
+		}
+		span{
+			color:#2874A6 ;
+		}
+
+		.head{
+			font-size: 45px;
+		}
+		div{
+			font-size: 20px;
+			padding-left: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<center><p class="head">Python <br>(programming language)</p></center>
+	<img src="data:image/jpeg;base64,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" align="right">
+<br>
+<div>
+<p>
+	<b>Python</b> is an <span>interpreted, high-level, general-purpose programming language.</span> Created by <span>Guido van Rossum </span>and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of <span>significant whitespace</span>. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+</p>
+<p>
+Python is <span>dynamically typed</span> and <span>garbage-collected</span>. It supports multiple <span>programming paradigms</span>, including structured (particularly, procedural), object-oriented, and <span>functional</span> programming. Python is often described as a "batteries included" language due to its comprehensive standard library.
+</p>
+<p>
+Python was conceived in the late 1980s as a successor to the <span>ABC language</span>. Python 2.0, released in 2000, introduced features like <span>list comprehensions</span> and a garbage collection system with <span>reference counting.</span>
+</p>
+<p>
+Python 3.0, released in 2008, was a major revision of the language that is not completely <span>backward-compatible</span>, and much Python 2 code does not run unmodified on Python 3.
+</p>
+<p>
+The Python 2 language was officially discontinued in 2020 (first planned for 2015), and "Python 2.7.18 is the last Python 2.7 release and therefore the last Python 2 release." No more security patches or other improvements will be released for it. With Python 2's <span>end-of-life</span>, only Python 3.5.x and later are supported.
+</p>
+<p>
+Python <span>interpreters</span> are available for many <span>operating systems</span>. A global community of programmers develops and maintains <span>CPython, a free and open-source reference implementation</span>. A non-profit organization, the <span>Python Software Foundation</span>, manages and directs resources for Python and CPython development.
+</p>
+</div>
+<nav>
+
+  <ul align="center">
+  <li><a href="#previous">&#8826&#8826  Previous</a></li>
+  <li><a href="#1">1</a></li>
+  <li><a href="#2">2</a></li>
+  <li><a href="#3">3</a></li>
+  <li><a href="#4">4</a></li>
+  <li><a href="#5">5</a></li>
+  <li><a href="#Next">Next  &#8827&#8827</a></li>
+</ul>
+</nav>
+
+</body>
+</html>

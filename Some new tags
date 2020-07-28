@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> html</title>
+</head>
+<body bgcolor="tan">
+
+<h1 align="center">ESSAY</h1>
+
+	 <hr width="50%" align="center" size="5" color="blue">
+
+     <hr width="50%" align="center" size="5" noshade>
+
+	 <p align="center"><br>WONDER OF SCIENCE <br>It is the age of science .There are many wonders of science.science plays an important part in our daily life .it has made our life easier and sistametic way of knowledge.in the dim down of creation when man opened his eyes .he sawthe blezing sun,the shining moon,the twinkling stars.he cried in amazement "WHAT ARE THIS ?".the question has been fully answered today by science.</p>
+
+	 <pre>
+   
+        1)INTRODUCTION:
+        In the dim down of creation when man opened his eyes .he sawthe blezing sun,the shining moon,the twinkling stars.he cried in amazement "WHAT ARE THIS".the question has been fully answered today by science.I
+	 
+   </pre>
+
+    <h1>Image Tag</h1>
+
+    <img src="C:\Users\sai\Desktop\New folder\image.jpg"alt="image of doll" title="Beautiful Doll" />
+
+   <!-- alt="image of doll"-->
+   <!-- means that when our net is slow then the image take time to download  
+   and it shows that "IMAGE OF DOLL"  -->
+    <img src="C:\Users\sai\Desktop\New folder\doll.jpg"/>
+</body>
+</html>

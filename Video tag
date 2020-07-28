@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vedio tag</title>
+</head>
+<body>
+	<video controls height="300px" poster="">
+<!-- here you can also use autoplay,loop and muted , width also-->
+
+		<source src="folder name/video name.mp4" type="video/mp4" />
+
+		<source src="folder name/video name.webm" type="video/webm" />
+
+		<source src="folder name/video name.ogg" type="video/ogg" />
+	<!--you can write any one because sometime the video  does not support thats why we will give you this three formats -->
+
+	</video>
+	
+</body>
+</html>

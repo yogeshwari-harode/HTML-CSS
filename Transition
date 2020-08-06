@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition</title>
+</head>
+<style>
+
+.Transition{
+	height: 100px;
+	width: 100px;
+	margin-top: 90px;
+	background-image:url("https://i.pinimg.com/originals/eb/24/fb/eb24fba84dfdf57fff8ad47c6f64e7dd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+	transition-duration: 1s;
+	transition-delay: 0s;
+	transition-timing-function: linear;
+	transition-property: all;
+	border:solid black;
+}
+.Transition:hover{
+	transform:rotate(360deg);
+	height: 400px;
+	width: 500px;
+}
+</style>
+<body>
+
+<center><div class="Transition"> Transition</div></center>
+</body>
+</html>

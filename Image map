@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+  .image{
+    border:solid red;
+    margin-right: 62.4%;
+  }
+</style>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the <b>Flower pot,the sofa,the watch</b>, or <b>the window</b> to go to a new page and read more about the topic:</p>
+
+<div class="image"><img src="https://previews.123rf.com/images/yupiramos/yupiramos1709/yupiramos170919616/86159483-living-room-scene-icon-vector-illustration-design.jpg" alt="home" usemap="#workmap" width="400" height="379">
+</div>
+
+<map name="workmap">
+  <area shape="rect" coords="95,10,273,175" alt="window" href="https://www.kindpng.com/picc/m/702-7029739_open-window-gif-png-transparent-png.png">
+
+  <area shape="circle" coords="200,267,24" alt="Flower pot" href="https://images-na.ssl-images-amazon.com/images/I/41ZkxDi9I-L._AC_.jpg">
+
+  <area shape="rect" coords="45,175,350,295" alt="sofa" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLCOH63yBmADja8WEiiMMQSswNW9Z5ZZZ0sw&usqp=CAU">
+  
+  <area shape="circle" coords="325,99,30" alt="watch" href="https://previews.123rf.com/images/blueringmedia/blueringmedia1509/blueringmedia150901173/45521752-round-clock-with-red-frame-illustration.jpg">
+</map>
+
+</body>
+</html>

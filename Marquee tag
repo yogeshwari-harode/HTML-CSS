@@ -6,19 +6,22 @@
        </title>
    </head>
    <body>
-      
-   		<marquee behavior="alternate"><h3>Hello World</h3></marquee><br>
-   		<marquee behavior="slide"><h3>Hii</h3></marquee><br>
-   		<marquee behavior="scroll"><h3>Mayuri</h3></marquee><br>
-   	
+      <h1>Marquee Tag</h1>
+   		<marquee bgcolor="orange"  behavior="alternate" ><h3>MP Online</h3></marquee><br>
+   		<marquee behavior="slide"><h3>Online</h3></marquee><br>
+   		<marquee bgcolor="tomato" behavior="scroll"><h3>MP Govt.</h3></marquee><br>
 <br>
 
    	<h2>For fast speed</h2>
+         <h3>we will use scrollamount</h3>
 
+   	<marquee behavior="scroll" scrollamount="10" direction="left" loop="2" bgcolor="pink"width="20%"><h3>Hello World</h3></marquee>
 
-   	<marquee behavior="scroll" scrollamount="10" direction="right,up,down" loop="1" bgcolor="pink"width="20%"><h3>Hello World</h3></marquee>
+      <!-- 
+         we can also give the direction to up,down,left and right
+      -->
    <br>
-   	<marquee behavior="scroll" scrollamount="10" direction="up"  bgcolor="powderblue"width="20%"height="70%"><h3>Hello World</h3></marquee>
+   	<marquee behavior="scroll" scrollamount="10" direction="up"  bgcolor="powderblue"width="20%"height="70%"><h3>Hello </h3></marquee>
 
 <br><br>
 

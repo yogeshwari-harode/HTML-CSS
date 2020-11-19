@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>menu bar</title>
+
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+
+			body{
+				font-family: "Roboto",sans-serif;
+				overflow: hidden;			
+			}
+
+			.container{
+				background-image: url("https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+				background-size: cover;
+				background-position: 50% 30%;
+				position: relative;
+				height: 100vh;
+				width: 100vw;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+			}
+
+			.container:before{
+				content: '';
+				position: absolute;
+				top: 0
+				left:0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.7);
+
+			}
+			.content{
+				max-width:700px;
+				padding: 2rem;
+				position: relative;
+				z-index: 1;
+			}
+			.content h1{
+				font-size: 4.3rem;
+				margin-bottom: 0.8rem;
+				color: #fff44f;
+				font-family: "Dancing Script",cursive;
+			}
+			.btn{
+				padding: 0.75rem 1.25rem;
+				margin-top: .8rem;
+				font-size: 1.1rem;
+				font-weight: 550;
+				color:#fff44f;
+				background-color: #111;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: inline-block;
+				transition: .3s;
+			}
+			.btn:hover{
+				opacity: .3s;
+			}
+			.menu-container{
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 2;
+			}
+			.toggler{
+				position: absolute;
+				top: 0.5rem;
+				left: 0.5rem;
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				opacity: 0;
+				z-index: 3;
+				cursor: pointer;
+			}
+			.hamburger{
+				position: absolute;
+				top: 0.5rem;
+				left: 0.5rem;
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				background-color: #111;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 2;
+			}
+			.hamburger>div{
+				position: absolute;
+				width: 60%;
+				height: 3px;
+				border-radius: 1.5px;
+				background-color: #fff44f;
+				transition:.4s;
+
+			}
+			.hamburger>div:before,.hamburger>div:after{
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 3px;
+				border-radius: 1.5px;
+				background-color: #fff44f;
+				
+			}
+			.hamburger>div:before{
+				top: -10px;
+			}
+			.hamburger>div:after{
+				top: 10px;
+			}
+
+			.toggler:checked + .hamburger>div{
+				transform: rotate(135deg)
+			}
+			.toggler:checked:hover + .hamburger>div{
+				transform: rotate(225deg)
+			}
+			
+			.toggler:checked + .hamburger>div:after,.toggler:checked + .hamburger>div:before{
+				transform: rotate(90deg);
+				top: 0;
+			}
+			.toggler:checked ~ .menu{
+				visibility: visible;
+			}
+			.toggler:checked ~ .menu>div{
+				transform: translateX(-50%) translateY(-50%);
+			}
+			.toggler:checked ~ .menu>div>div{
+				opacity: 1;
+			}
+
+
+			.menu{
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				visibility:hidden;
+				transition: .6s;
+			}
+			.menu>div{
+				position: absolute;
+				width: 1600px;
+				height: 1600px;
+				border-radius: 50%;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-150%) translateY(-50%);
+				background-color: rgba(0,0,0,0.9);
+				justify-content: center;
+				display: flex;
+				align-items: center;
+				transition: .6s;
+			}
+			.menu>div>div{
+				max-width: 90vw;
+				max-height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				opacity:0;
+			}
+			.menu>div>div>ul>li{
+				list-style:none;
+			}
+			.menu>div>div>ul>li>a{
+				text-decoration:none;
+				margin:.5rem;
+				display: inline-block;
+				font-size: 1.2rem;
+				font-weight: 550;
+				text-transform: uppercase;
+				color:#fff;
+				transition: .3s;
+			}
+
+
+		</style>
+</head>
+<body>
+	<div class="menu-container">
+		<input type="checkbox" class="toggler">
+		<div class="hamburger">
+			<div></div>
+		</div>
+		<div class="menu">
+			<div>
+				<div>
+
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#home">service</a></li>
+						<li><a href="#home">about</a></li>
+						<li><a href="#home">contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="content">
+			<h1>welcome</h1>
+			<a href="#" class="btn">read more</a>
+		
+	</div>
+
+</body>
+</html>

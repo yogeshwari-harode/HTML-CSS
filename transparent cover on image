@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nature image</title>
+	<style>
+		
+		body{
+			font-family:cursive;
+			font-size:20px;
+		}
+		.a{
+			width:700px;
+			position:relative;
+		}
+		
+		h4{
+			text-align: center;
+		}
+		.a .below_cover{
+		color:white;
+		bottom:5px;
+     	background: rgba(0.6,0.5, 0.3, 0.3);
+		position:absolute;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="a">
+			<img src="https://www.itl.cat/pngfile/big/18-181725_new-wallpaper-hd-nature-love-beautiful-images-of.jpg" height="80%" width="100%" >
+		<div class="below_cover">
+			<h1>Nature</h1>
+			<h4> In nature, nothing is perfect and everything is perfect.<br> Trees can be contorted, bent in weird ways, and they’re still beautiful.<br> –Alice Walker</h4>
+		</div>
+	</div>
+
+</body>
+</html>

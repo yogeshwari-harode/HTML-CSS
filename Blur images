@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blur Images</title>
+	<style type="text/css">
+		body{
+			background-color: tan;
+		}
+    
+		.a img{
+			filter: blur(1px);
+		}
+    
+		img{
+			float: left;
+			padding-left: 100px;
+		}
+    
+		h1{
+			font-family:cursive;
+		}
+	</style>
+</head>
+
+<body>
+	<h1><center>Blur Effect On Images</h1>
+	<img src="https://static.toiimg.com/photo/69359415/paris.jpg?width=748&resize=4" alt="paris" width="300" height="300">
+	<div class="a" >
+		<img src="https://static.toiimg.com/photo/69359415/paris.jpg?width=748&resize=4" alt="paris" width="300" height="300">
+	</div>
+</body>
+</html>

@@ -6,3 +6,5 @@
 ### LOGIN FORM
 ![login form](https://user-images.githubusercontent.com/67998331/108950787-d53d5e80-768c-11eb-89de-c37800c34507.png)
 
+### SURYA GRAHAN
+![surya grahan](https://user-images.githubusercontent.com/67998331/108951253-a1af0400-768d-11eb-9ba3-ba81421995fa.png)

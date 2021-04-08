@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Search bar</title>
+	
+  <style>
+		
+    body{
+			background-color: #2E4053;
+		}
+
+		.container{
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			position: absolute;
+		}
+		.search_box{
+			border-radius: 40px;
+			background-color: white;
+		}
+		form{
+			margin: 0;
+		}
+		input{
+			border:none;
+			margin:15px 10px 15px 5px;
+			font-size: 20px;
+			outline: none;
+			color:#17202A;
+		}
+		.search_box button i{
+			font-size: 20px;
+			margin: 0px 10px;
+			color:#0063D4;
+		}
+		
+		button{
+			background: transparent;
+			border:none;
+			outline: none;
+		}
+		
+	</style>
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div class="container">
+	
+		<div class="search_box">
+			
+				<form>
+				
+					  <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					
+					  <input  type="text" placeholder="Search...">
+				
+						<button type="submit"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+			
+				</form>
+
+		</div>	
+							
+</div>
+
+</body>
+</html>

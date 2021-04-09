@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Quotation Elements</title>
+</head>
+<body>
+
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+	<q>WHO was founded in 1948.</q>
+
+	<blockquote >
+		For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+	</blockquote>
+
+</body>
+</html>

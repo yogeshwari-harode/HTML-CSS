@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider</title>
+	<style>
+		body{
+			background-color: rgba(27,31,34,0.85);
+		}
+		h1{
+			font-size: 2.1rem;
+			line-height: 1.4;
+			letter-spacing: 0.5rem;
+			text-align: center;
+			color: white;
+			margin-top: 50px;
+		}
+		.maindiv{
+			width: 70%;
+			height: 400px;
+			position: absolute;;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+			background-size: 100% 100%;
+			box-shadow: 1px 2px 10px 5px white;
+			/*box-shadow: horizontal vertical blur spread color*/
+			animation: slider 9s infinite linear;
+			/* animation: name time timetorun smooth*/
+		}
+
+		@keyframes slider{
+			0%{ background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg'); }
+			
+			35%{ background-image: url('https://www.utemountaincasino.com/wp-content/uploads/2020/03/new_firework.jpg'); }
+
+			45%{ background-image: url('https://www.teahub.io/photos/full/52-529945_christmas-images-hd-download.jpg'); }
+
+			55%{ background-image: url('http://www.goodmorningimageshddownload.com/wp-content/uploads/2019/12/Whatsapp-DP-Images-3-2.jpg'); }
+
+			75%{ background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Baby.tux-800x800.png'); }
+
+			85%{ 'background-image: url('https://www2.canon.com.hk/myContent/article/10426/images/image001.jpg' }
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>CSS SLIDER ANIMATION</h1>
+	<div class="maindiv">
+		
+	</div>
+
+</body>
+</html>

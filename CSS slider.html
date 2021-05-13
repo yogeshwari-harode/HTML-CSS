@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider youtube</title>
+	<style>
+		body{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+		.container{
+			margin: 0 auto;
+			margin-top: 20px;
+			position: relative;
+			width: 70%;
+			height: 0;
+			padding-bottom: 40%;
+			background-color: #4c4c4c;
+			border: solid 10px #2c2c2c;
+
+		}
+		.slide_img{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+		.slide_img img{
+			width: 100%;
+			height: 100%;
+		}
+		#i1, #i2, #i3{
+			display: none;
+		}
+		.pre, .nxt{
+			width: 12%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			background-color: rgba(88,88,88,.4);
+			z-index: 99;
+			cursor: pointer;
+		}
+		.pre{
+			left: 0;
+		}
+
+		.nxt{
+			right: 0;
+		}
+		.nav{
+			width: 100%;
+			height: 11px;
+			bottom: 12px;
+			position: absolute;
+			text-align: center;
+			z-index: 99;
+		}
+		.dots{
+			top: -5px;
+			width: 18px;
+			height: 18px;
+			margin: 0 4px;
+			position: relative;
+			border-radius: 50%;
+			display: inline-block;
+			background-color: rgba(0,0,0,.6);
+		}
+		.slide_img{
+			z-index: -1;
+		}
+		#i1:checked ~ #one,
+		#i2:checked ~ #two,
+		#i3:checked ~ #three{
+			z-index: 9;
+		}
+		#i1:checked ~ .nav #dot1,
+		#i2:checked ~ .nav #dot2,
+		#i3:checked ~ .nav #dot3{
+			background: #fff;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<input type="radio" name="images" id="i1" checked>
+		<input type="radio" name="images" id="i2">
+		<input type="radio" name="images" id="i3">
+
+
+		<div class="slide_img" id="one">
+			<img src="https://preview.ibb.co/iFGxZv/img_1.jpg">
+			<label for="i3" class="pre"></label>
+			<label for="i2" class="nxt"></label>
+
+		</div>
+
+
+		<div class="slide_img" id="two">
+			<img src="https://preview.ibb.co/cJ1mSF/img_2.jpg">
+			<label for="i1" class="pre"></label>
+			<label for="i3" class="nxt"></label>
+		</div>
+
+
+		<div class="slide_img" id="three">
+			<img src="https://preview.ibb.co/dtVPEv/img_3.jpg">
+			<label for="i2" class="pre"></label>
+			<label for="i1" class="nxt"></label>
+		</div>
+
+
+		<div class="slide_img" id="four">
+			<img src="">
+		</div>
+
+
+		<div class="slide_img" id="five">
+			<img src="">
+		</div>
+
+
+		<div class="slide_img" id="six">
+			<img src="">
+		</div>
+
+
+		<div class="slide_img" id="seven">
+			<img src="">
+		</div>
+
+
+		<div class="nav">
+			<label class="dots" id="dot1" for="i1"></label>	
+			<label class="dots" id="dot2" for="i2"></label>	
+			<label class="dots" id="dot3" for="i3"></label>	
+		</div>
+
+	</div>
+
+</body>
+</html>

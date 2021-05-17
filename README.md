@@ -15,3 +15,5 @@
 ### Drop down menu
 <img src="https://user-images.githubusercontent.com/67998331/114177405-fff02780-9959-11eb-950d-49a6a0d2ec95.png" height="350px" width="700px">
 <img src="https://user-images.githubusercontent.com/67998331/114177727-5e1d0a80-995a-11eb-8fc8-70b0de999e9b.png" height="350px" width="700px">
+### Sticky navbar
+<img src="https://user-images.githubusercontent.com/67998331/118545191-e53c7a00-b773-11eb-8f29-6a06f034f2d5.png" height="350px" width="700px">

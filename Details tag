@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Details tag</title>
+</head>
+<body>
+
+	<details><h1>Hello!</h1><h2>This is Yogeshwari</h2></details>
+
+</body>
+</html>

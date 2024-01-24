@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Onclick</title>
+        <style>
+             #head2{
+                display: none;
+            }
+        </style>
+        <script>
+            function text_fun(){
+                var text1=document.getElementById('head1');
+                var text2=document.getElementById('head2');
+                var flag=0;
+                if(flag==1){
+                    text1.style.display='none';
+                    text2.style.display='block';
+                    flag=0;
+                }
+                else{
+                    text1.style.display='block';
+                    text2.style.display='none';
+                    flag=1;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p id="head1">1st text</p>
+        <p id="head2">2nd text</p>
+        <button onclick="text_fun()">Click me</button>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image onclick</title>
+        <style>
+
+        </style>
+        <script>
+            function color(value){
+                document.body.style.backgroundColor=value;
+            }
+        </script>
+    </head>
+    <body>
+        <select onchange="color(this.value)">
+            <option value="">Color</option>
+            <option value="Blue">Blue</option>
+            <option value="Tan">Tan</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="skyblue">skyblue</option>
+            
+        </select>
+    </body>
+</html>

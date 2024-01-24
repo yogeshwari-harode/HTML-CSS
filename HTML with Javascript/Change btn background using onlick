@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image onclick</title>
+        <style>
+            button{
+                margin:300px;
+                padding: 10px;
+                width: 150px;
+                background-color:chartreuse;
+            }
+        </style>
+        <script>
+            function Color(){
+                var id=document.getElementById('btn');
+                id.style.backgroundColor="#ff2f2f";
+            }
+        </script>
+    </head>
+    <body>
+        <button id="btn" onclick="Color()">Click me</button>
+    </body>
+</html>

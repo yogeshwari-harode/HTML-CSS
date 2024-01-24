@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image onclick</title>
+        <style>
+
+        </style>
+        <script>
+            function imgChange(){
+                var imageid=document.getElementById('image').src='https://rajueditor.com/wp-content/uploads/2023/07/cute-cat-dp-cute-cat-dp-photo-download-full-hd-800x1024.jpg';
+            }
+        </script>
+    </head>
+    <body>
+        <img id="image" src="https://rajueditor.com/wp-content/uploads/2023/07/Best-cute-cat-dp-cute-cat-dp-image-hd-800x1024.jpg" width="300px">
+        <button onclick="imgChange()">Change image</button>
+    </body>
+</html>

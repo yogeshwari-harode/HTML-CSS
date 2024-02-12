@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Favicon</title>
+        <link rel="icon" href="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-file-wikt-globe-bullet-svg-wikimedia-commons-19.png">
+        <style>
+            body{
+		        background-image: url(https://wallpapercrafter.com/sizes/1920x1080/17517-bench-alone-solitude-sunset-mountains-girl-4k.jpg);
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+
+            }           
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1>Header</h1><hr>
+        <h2>See the Favicon on the web browser - A small logo with title</h2>
+    </body>
+</html>
